@@ -18,7 +18,7 @@ from pydantic import BaseModel
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Cart Check Bot", description="Healthy grocery shopping assistant")
+app = FastAPI(title="Kind At Cart", description="Healthy grocery shopping assistant")
 
 # Environment variables
 WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
